@@ -1,0 +1,37 @@
+@media print {
+    /* Add your print styles here */
+    body {
+        font-family: Arial, sans-serif;
+        font-size: 12pt;
+        line-height: 1.5;
+    }
+
+    h1, h2, h3 {
+        font-weight: bold;
+    }
+
+    p {
+        margin-bottom: 1em;
+    }
+
+    /* Hide elements that should not be printed */
+    .no-print {
+        display: none;
+    }
+}
+/* Add your fancy print styles here */
+body {
+    background-color: #f5f5f5;
+    color: #333;
+}
+
+h1, h2, h3 {
+    color: #555;
+    text-decoration: underline;
+}
+
+p {
+    font-style: italic;
+}
+
+/* Add additional styles as needed */
